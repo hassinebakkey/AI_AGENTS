@@ -17,7 +17,7 @@ def main():
     load_dotenv()
 
     # ✅ You can define your environment variables directly here
-    project_endpoint = os.getenv("PROJECT_ENDPOINT") or "https://bekeyhsin1-1114-resource.services.ai.azure.com/api/projects/bekeyhsin1-1114"
+    project_endpoint = os.getenv("PROJECT_ENDPOINT") or ""
     model_deployment = os.getenv("MODEL_DEPLOYMENT_NAME") or "gpt-4o"
 
     # Display the data to be analyzed
