@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: microsoft-agents-hosting-core
+Version: 0.4.0
+Summary: Core library for Microsoft Agents
+Author: Microsoft Corporation
+Project-URL: Homepage, https://github.com/microsoft/Agents
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: microsoft-agents-activity==0.4.0
+Requires-Dist: pyjwt>=2.10.1
+Requires-Dist: isodate>=0.6.1
+Requires-Dist: azure-core>=1.30.0
+Requires-Dist: python-dotenv>=1.1.1
+Dynamic: requires-dist
