@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: microsoft-agents-activity
+Version: 0.4.0
+Summary: A protocol library for Microsoft Agents
+Author: Microsoft Corporation
+Project-URL: Homepage, https://github.com/microsoft/Agents
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: pydantic>=2.10.4
